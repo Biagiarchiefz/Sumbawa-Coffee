@@ -1,0 +1,15 @@
+/* import font google dsini */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {               /* mengatur semua font sesuai dengan font yang di tailwind.config.js  */   
+   @apply font-primary;   /* dan tidak perlu lagi memasukan nama fontnya pada saat styling di component jsx */
+}
+
+
+
+
+
